@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Estudiantes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Registro de Estudiantes</h1>
+        <p>Administración de estudiantes y calificaciones</p>
+    </header>
+
+    <main class="container">
+
+        <section class="form-section">
+            <h2>Agregar estudiante</h2>
+
+            <form id="studentForm">
+
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre"
+                           placeholder="Ingrese el nombre">
+                </div>
+
+                <div class="form-group">
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos"
+                           placeholder="Ingrese los apellidos">
+                </div>
+
+                <div class="form-group">
+                    <label for="nota">Nota (0 - 100):</label>
+                    <input type="number" id="nota"
+                           min="0" max="100"
+                           placeholder="Ingrese la nota">
+                </div>
+
+                <button type="submit">Agregar estudiante</button>
+
+                <p id="mensaje" role="alert"></p>
+
+            </form>
+        </section>
+
+        <section class="table-section">
+            <h2>Lista de estudiantes</h2>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellidos</th>
+                            <th>Nota</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="studentTable">
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="summary-section">
+            <h2>Resumen de calificaciones</h2>
+
+            <div class="summary-grid">
+                <article class="summary-card">
+                    <h3>Nota más alta</h3>
+                    <p id="notaMayor">-</p>
+                    <small id="estudianteMayor">-</small>
+                </article>
+
+                <article class="summary-card">
+                    <h3>Promedio general</h3>
+                    <p id="promedio">-</p>
+                </article>
+
+                <article class="summary-card">
+                    <h3>Nota más baja</h3>
+                    <p id="notaMenor">-</p>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Proyecto académico - Registro de Estudiantes</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
