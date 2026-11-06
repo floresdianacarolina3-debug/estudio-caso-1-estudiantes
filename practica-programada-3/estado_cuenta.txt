@@ -1,0 +1,34 @@
+ESTADO DE CUENTA
+TARJETA DE CREDITO
+==============================
+
+TRANSACCIONES REGISTRADAS
+
+ID: 1
+Descripcion: Compra en supermercado
+Monto: 45,000.00
+------------------------------
+ID: 2
+Descripcion: Compra de combustible
+Monto: 25,000.00
+------------------------------
+ID: 3
+Descripcion: Compra de ropa
+Monto: 35,000.00
+------------------------------
+ID: 4
+Descripcion: Pago de restaurante
+Monto: 18,000.00
+------------------------------
+ID: 5
+Descripcion: Compra en farmacia
+Monto: 12,000.00
+------------------------------
+
+RESUMEN DEL ESTADO DE CUENTA
+==============================
+Total de contado: 135,000.00
+Interes (2.6%): 3,510.00
+Total con interes: 138,510.00
+Cashback (0.1%): 135.00
+TOTAL FINAL A PAGAR: 138,375.00
